@@ -28,7 +28,7 @@ const About = () => {
               <div>
                 <div className="w-full h-80 bg-gradient-to-br from-blue-400 to-teal-400 rounded-2xl shadow-xl transform rotate-3 hover:rotate-0 transition-transform duration-300">
                   <div className="w-full h-full bg-gray-300 dark:bg-gray-600 rounded-2xl flex items-center justify-center text-gray-500 dark:text-gray-400">
-                    <img src={img} alt="profile photo" />
+                    <img src={"https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM="} alt="profile photo" />
                     {/* <span className="text-lg">Profile Photo</span> */}
                   </div>
                 </div>
