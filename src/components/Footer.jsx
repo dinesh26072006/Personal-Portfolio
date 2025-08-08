@@ -1,5 +1,6 @@
 import React from 'react';
 import { Heart, ArrowUp } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -7,9 +8,10 @@ const Footer = () => {
   };
 
   const currentYear = new Date().getFullYear();
+  const navigate = useNavigate();
 
   const quickLinks = [
-    { name: 'Home', id: 'home' },
+    { name: 'Home', id: '' },
     { name: 'About', id: 'about' },
     { name: 'Skills', id: 'skills' },
     { name: 'Projects', id: 'projects' },
@@ -49,7 +51,7 @@ const Footer = () => {
                 {quickLinks.map((link) => (
                   <li key={link.id}>
                     <button
-                      onClick={() => scrollToSection(link.id)}
+                      onClick={() => navigate(`/${link.id}`)}
                       className="text-gray-300 hover:text-blue-400 transition-colors duration-200"
                     >
                       {link.name}

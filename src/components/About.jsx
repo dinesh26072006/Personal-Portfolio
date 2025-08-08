@@ -38,10 +38,10 @@ const About = () => {
                 <h3 className="text-3xl sm:text-3xl  text-blue-400 mb-6 leading-relaxed text-justify">
                   Full-Stack Developer & Problem Solver...
                 </h3>
-                <p className="text-white dark:text-gray-300 w-[560px] mb-6 leading-relaxed text-justify">
+                <p className="text-white dark:text-gray-300 md:w-[560px] mb-6 leading-relaxed text-justify">
                   I’m a passionate Full Stack Developer with a strong foundation in building dynamic, user-focused web applications from the ground up. I specialize in crafting responsive front-end interfaces using React, Next.js, and modern JavaScript frameworks, while developing robust back-end services with Node.js, Express, and secure database integrations like MongoDB and MySQL .
                 </p>
-                <p className="text-white dark:text-gray-300 w-[560px] mb-6 leading-relaxed text-justify">
+                <p className="text-white dark:text-gray-300 md:w-[560px] mb-6 leading-relaxed text-justify">
                   I enjoy bridging the gap between design and functionality, ensuring that every project is not only visually engaging but also efficient, scalable, and maintainable. With experience across the entire development lifecycle—from planning and UI/UX design to deployment and optimization—I thrive on turning ideas into fully functional, high-quality digital products. My goal is to keep learning, stay ahead of industry trends, and deliver solutions that make a real impact .
                 </p>
                 <div className="flex flex-wrap gap-2">

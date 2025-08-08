@@ -29,7 +29,7 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-              <a href="#projects">
+              <a href="/projects">
                 <button className="px-8 py-4 bg-gradient-to-r from-blue-500 to-teal-500 text-white rounded-full font-semibold hover:from-blue-600 hover:to-teal-600 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl">
                   View My Work
                 </button>
