@@ -50,14 +50,18 @@ The site is fully responsive and built for performance using **React + Vite**.
 1. Clone the repository:
    ```bash
    git clone https://github.com/dinesh26072006/Personal-Portfolio.git
+   ```
 2. node modules installation:
    ```bash
    npm install
+   ```
    if encountered any error please run this command:
    ```bash
-   npm install --legacy-peer-dep
+   npm install --legacy-peer-deps
+   ```
 3.To run the project:
    ```bash
    cd src
    npm run dev
-4.After run your project the project is running at "localhost:5173"
+```
+4.After run your project the project is running at "http://localhost:5173"
