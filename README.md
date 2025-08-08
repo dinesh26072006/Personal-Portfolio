@@ -9,10 +9,7 @@ A modern, responsive personal portfolio website built with **React** and **Vite*
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Live Demo](#live-demo)
-- [Screenshots](#screenshots)
-- [License](#license)
+
 
 ---
 
