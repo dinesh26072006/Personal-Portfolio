@@ -68,7 +68,7 @@ const Footer = () => {
                 <p>Velammal Engineering College, Chennai</p>
                 <br/>
                 <a href="mailto:dineshprabakaran2509@gmail.com">
-                  <p>dineshprabakaran2509@example.com</p>
+                  <p>dineshprabakaran2509@gmail.com</p>
                 </a>
                 <br />
                 <a href="tel:6369627212">
